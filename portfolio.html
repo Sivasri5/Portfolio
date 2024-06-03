@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+       <nav>
+        <span class="logo">SIVASRI</span>
+        <ul>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#skills">Skills</a></li>
+             <li><a href="#projects">Projects</a></li>
+             <li><a href="#contact">Contact</a></li>
+        </ul>
+       </nav>
+    </header>
+    <section class="home" id="home"> 
+        <div class="hm">
+            <div class="text">
+                <h2>Hi there,  I am</h2>
+                <h1>SIVASRI R</h1><br>
+                <span>CSE STUDENT AT KONGU ENGINEERING COLLEGE</span><br><br>
+                <div class="social">
+                    <br>
+                    <a href="https://www.linkedin.com/in/sivasri-r-86856a259/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Sivasri5"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:sivasrir04@gmail.com"><i class='bx bxl-gmail'></i></a>
+                </div>
+            </div>
+            <div class="image">
+               <img src="picport.jpg">
+            </div>
+        </div>
+    </section>
+    <br><br>
+        <section class="about" id="about">
+            <div class="abt">
+            <h1>About Me</h1>
+           <p>  I'm Sivasri R,<br> A motivated student pursuing BE, <br>Computer Science and Engineering<br> with a deep
+                 interest in Web development.<br>
+                 As a student, I'm committed to academic excellence<br> and constantly seek opportunities to expand <br>
+                 my knowledge and skills.
+             </p>
+             <a href="Resume.pdf" class="resume" id="resumeLink" download="resume.pdf">Resume</a>
+           <img src="p2.png">
+            </div>
+        </section><br><br>
+<section class="skills" id="skills">
+    <h1>SKILLS</h1>
+    <div class="container">
+        <div class="skill">
+          <h2>HTML</h2>
+          <p class="description">Proficient in HTML5 markup and<br> semantic structuring.</p>
+          <div class="icon">
+            <i class='bx bxl-html5' ></i>
+          </div>
+        </div>
+        <div class="skill">
+          <h2>CSS</h2>
+          <p class="description">Skilled in CSS3 styling and <br>responsive design.</p>
+          <div class="icon">
+            <i class='bx bxl-css3' ></i>
+          </div>
+        </div>
+        <div class="skill">
+          <h2>JavaScript</h2>
+          <p class="description">Experience with<br> JavaScript programming and <br>DOM manipulation.</p>
+          <div class="icon">
+            <i class='bx bxl-javascript' ></i>
+          </div>
+        </div>
+        <div class="skill">
+            <h2>NodeJS</h2>
+            <p class="description">Writing a server side<br> script connecting<br> to database.</p>
+            <div class="icon">
+                <i class='bx bxl-nodejs' ></i>
+            </div>
+        </div>
+        <div class="skill">
+            <h2>ReactJs</h2>
+            <p class="description">Basics ReactJs <br>used for client side scripting.</p>
+            <div class="icon">
+                <i class='bx bxl-react'></i>
+            </div>
+        </div>
+        <div class="skill">
+            <h2>Mongodb</h2>
+            <p class="description">Storing datas in the<br>NoSql database.</p>
+            <div class="icon">
+                <i class='bx bxl-mongodb' ></i>
+            </div>
+        </div>
+      
+        
+      
+
+</section>
+<section class="projects" id="projects">
+    <h1>Projects</h1>
+    <ul class="project-list">
+        <li class="project">
+            <h2>Bus Fee Management System</h2>
+            <p>The project was developed for the Web app competition that took place at E-hoizon'24 
+                at KEC to manage the bus fee collection to help the transport office.<br>
+            NodeJs was used for backend,HTML,CSS.JavaScript was used for front end and for database ongoDb was used.</p>
+            <a href="#https://github.com/Sivasri5/Bus-management-Ehorizon.git">Project Link</a>
+        </li>
+        <li class="project">
+            <h2>Smart water tax calculation meter</h2>
+            <p>A hardware project made in KEC as a part of design thinking. It calculates the tax for the amount of water consumed instead of flat price</p>
+            <a href="#">Project model</a>
+        </li>
+        <li class="project">
+            <h2>Employee Management System</h2>
+            <p>Java Sprintboot project with the basic crud operations. Database used was MySql.<br>It manages the data of the employees which helps the management in easy access to data. </p>
+            <a href="#https://github.com/Sivasri5/Bus-management-Ehorizon.git">Project Link</a>
+        </li>
+    </ul>
+</section>
+
+<section class="contact" id="contact">
+    <h1 class="chead">CONTACT ME</h1>
+    <form action="#" id="contactForm" onsubmit="handleSubmit(event)">
+
+        <div class="msg">
+            <input type="text" placeholder="Name" id ="name"><br>
+            <input type="email" placeholder="Email" id="email">
+        </div>
+        <div class="msg">
+            <input type="number" placeholder="Phone number" id="phone"><br>
+            <input type="text" placeholder="Subject" id="subject">
+        </div>
+        <textarea name="" id="" cols="35" rows="10" placeholder="Message" id="message"></textarea>
+        <input type="submit" value="send" class="btn">
+    </form>
+</section>
+
+ <footer class="footer">
+    <div class="foot">
+        <p >&copy; 2024 Sivasri R. All rights reserved. </p> 
+    </div>
+        
+ </footer>
+
+ <script src="script.js"></script>
+</body>
+</html>
